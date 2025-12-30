@@ -31,13 +31,13 @@ Webi는 비즈니스 환경에 최적화된 맞춤형 솔루션을 제공합니�
 ### 🛠 Tech Stack
 우리는 문제 해결에 가장 적합하고 효율적인 도구를 선택합니다.
 
-| Category | Technologies                                    |
-| :--- |:------------------------------------------------|
-| **Backend** | `Java (Spring Boot)`, `Node.js`, `Python`       |
-| **Frontend** | `React`, `TypeScript`, `Next.js`                |
-| **Mobile** | `React Native`, `Swift`, `Kotlin`               |
-| **DevOps** | `NCP`, `GCP`, `AWS`, `Docker`, `GitHub Actions` |
-| **Database** | `MySQL`, `Redis`, `MongoDB`                     |
+| Category | Technologies                                     |
+| :--- |:-------------------------------------------------|
+| **Backend** | `Java (Spring Boot)`, `Node.js`, `Python`        |
+| **Frontend** | `React`, `TypeScript`, `Next.js`                 |
+| **Mobile** | `React Native`, `Swift`, `Kotlin`                |
+| **DevOps** | `NCP`, `GCP`, `AWS`, `Docker`, `GitHub Actions`  |
+| **Database** | `MySQL`, `Postgre`, `Oracle`, `Redis`, `MongoDB` |
 
 <br>
 
