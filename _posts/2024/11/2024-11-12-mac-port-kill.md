@@ -16,20 +16,20 @@ published: true
 해당 포트가 이미 사용중일 때 나타나는 오류 입니다.  
 포트가 이미 사용중 일 때 찾아서 강제로 Kill하는 방법을 알아보겠습니다.
 
-1. 포트 검색
+### 1. 포트 검색
 ```shell
 lsof -i :80
 ```
 검색하고자 하는 포트를 뒤에 적어줍니다. 저는 80포트로 검색을 했습니다.
 
-2. 검색된 리스트 확인
+### 2. 검색된 리스트 확인
 ```shell
 COMMAND   PID   USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 java    33258     pc  125u  IPv6 0xb4fba925528e7965      0t0  TCP \*:http (LISTEN)
 ```
 80포트를 사용 중인 리스트가 확인 되며, 리스트 중에 PID를 확인 해주세요.
 
-3. 포트 Kill
+### 3. 포트 Kill
 ```shell
 kill -9 33258
 ```
